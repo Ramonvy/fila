@@ -1,0 +1,293 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebeef7;
+}
+
+#painel_ctrl{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    z-index: 0;
+}
+
+#sub_painel{
+    position: relative;
+    margin: auto;
+    margin-top: 50vh;
+    background-color: #00f0;
+    text-align: center;
+}
+
+.ctrl_bt{
+    position: relative;
+    background-color: #2d9e5b;
+    color: #fff;
+    border-radius: 3px;
+    max-width: 250px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ctrl_bt:hover{
+    background-color: #65d694;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+}
+
+#num_def{
+    width: 30px;
+    display: inline-block;
+}
+
+.noselect{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#overpwd_l1{
+    position: absolute;
+    left: 0;
+    top: 20vh;
+    height: 80%;
+    width: 100%;
+    text-align: center;
+}
+
+#overpwd_l2{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#overpwd_l3{
+    position: relative;
+    background-color: blue;
+    width: 100%;
+    height: min-content;
+    margin: auto;
+    margin-top: 30%;
+    border-color: red;
+    border-width: 4px;
+    border-style: solid;
+}
+
+#senha{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 200px;
+}
+
+#gc_list{
+    position: absolute;
+    display: flex;
+    width: 80vw;
+    left: 0;
+    margin-top: 5vh;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.gc_item{
+    position: relative;
+    width: 250px;
+    min-width: 250px;
+    background-color: #fff;
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 4px 1px rgba(0,0,0,.08);
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.gc_tlt{
+    font-size: 20px;
+}
+
+.gc_select{
+    background-color: #2d9e5b;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.gc_select:hover{
+    background-color: #65d694;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.gc_noselect{
+    background-color: #c00000;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+#gc_select_layer p{
+    font-size: 30px;
+}
+
+#gc_select_layer{
+    opacity: 0;
+    z-index: 0;
+}
+
+#fk_header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+#bt_logout{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 120px;
+    font-size: 15px;
+    background-color: #2d9e5b;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline;
+    margin-right: 2vw;
+    z-index: 5;
+}
+
+#bt_logout:hover{
+    background-color: #65d694;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline;
+    margin-right: 2vw;
+}
+
+#painel_adapt_layer{
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+    font-size: 10vh;
+}
+
+#painel{
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+#main_div_l1{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 79.6%;
+    border-bottom: 0.14vh solid #000;
+}
+
+#main_div_l2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main_div_l2 p{
+    color: #00f;
+}
+
+#pass, #guiche{
+    position: relative;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#guiche{
+    padding-top: 8.75%;
+}
+
+#pass p{
+    margin-top: 7%;
+    font-size: 105%;
+    font-weight: 600;
+}
+
+#guiche p{
+    font-size: 35%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#gnum{
+    font-weight: 800;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    max-height: 25%;
+    bottom: 0.5%;
+    left: 0;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer ul li{
+    display: inline-flex;
+    margin-top: 1.25%;
+}
+
+.hi_pass{
+    font-size: 28%;
+    margin: 0;
+    font-weight: 600;
+}
+
+.hi_g{
+    font-size: 14%;
+    margin: 0;
+}
+
+
+@media(max-width: 1200px){
+    
+    #gc_list{
+        display: block;
+    }
+
+    .gc_item{
+        display: inline-block;
+    }
+}
